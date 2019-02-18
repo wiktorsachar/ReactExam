@@ -38,7 +38,7 @@ class NewCatalog extends React.Component {
                         <div class="filter">
                             <div class="filter-header">
                                 <h4>Search</h4>
-                                <button onClick={()=>{a='';this.updateState();document.getElementById('searcher').value = '';Unchecker()}} class="clear" class="clear-button">Clear</button>
+                                <button onClick={()=>{a='';this.updateState();document.getElementById('searcher').value = '';Unchecker()}} class="clear-button">Clear</button>
                             </div>
                             <div>
                                 <input onChange={(y)=>{a=y.target.value;this.updateState();Unchecker();}} type="text" id="searcher" placeholder="search..."/>
@@ -72,9 +72,9 @@ class NewCatalog extends React.Component {
                 </div>
         </div>
             
-      );
+      )
    }
-}
+};
 
 
 
